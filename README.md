@@ -33,7 +33,7 @@ You could change some arguments in the train_lightcnn.py, like num_epochs, gpus.
  * Utilize MATLAB to run the lfw_eval.m to verificate a pair of images. You must generate the features of the aligned LFW datasets in advance. See **lfw_verification-matlab/lfw_eval.m** for details. 
 
 ## Downloading trained model
-* Pretrained model: [download](https://drive.google.com/open?id=1JTneCiIZfITyg_Z2T96WY0hA84BnRDSk). Training about 35 epoches use 10k people, the loss has converged. But the accuracy on the aligned LFW datasets is not high, about 94%.
+* Pretrained model: [download](https://drive.google.com/open?id=1tWUKIP2zg_rHCT_vxA4YZV7Z0_1rFBqm). Training about 35 epoches use 10k people, the loss has converged. But the accuracy on the aligned LFW datasets is not high, about 94%.
 
 * Some improved solutions:
  1. Change the optimizer method, like: when loss doesn't decrease, manually decrease it to 10 time smaller.
