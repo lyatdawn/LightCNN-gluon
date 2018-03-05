@@ -18,7 +18,7 @@ See requirements.txt for details.
 python train_lightcnn.py
 ```
 You could change some arguments in the train_lightcnn.py, like num_epochs, gpus. If want to get the good results and save training time, there are some points should note:
- - For weights initialization,  use "xavier" initialization for "weight" of every layer, the "bias" will initializate to constant value "0.1". See **common/fit.py** initializer for details.
+ - For weights initialization,  use "xavier" initialization for "weight" of every layer, the "bias" will initializate to constant value "0.1".
  - For learning rate,  use "AdamOptimizer" as optimization method, and initial learning rate is 0.00001. So in mxnet, you can set the initial learning rate is 0.0001, lr_step_epochs is '0, 100', in this way, the initial learning rate is 0.00001 in epoch 0.
 
  ## Extract features of LFW
