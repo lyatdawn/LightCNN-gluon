@@ -4,7 +4,7 @@
 
 ## Install Required Packages
 First ensure that you have installed the following required packages:
-* gulon. gulon is the interface of mxnet. The version of mxnet is mxnet0.12.0, maybe other version is ok.
+* gluon. gluon is the interface of mxnet. The version of mxnet is mxnet0.12.0, maybe other version is ok.
 * Opencv ([instructions](https://github.com/opencv/opencv)). Here is opencv-2.4.9.
 
 See requirements.txt for details.
